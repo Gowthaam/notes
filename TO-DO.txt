@@ -6,5 +6,7 @@ what is kernel and shell.
 install dig.
 File snapshot vs File structure vs Deltas.
 what is Git-flow.
+what is systemctl and what are systemd services in linux.
+Git fetch,fork.
 
-
+05/07/18
