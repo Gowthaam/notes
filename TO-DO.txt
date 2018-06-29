@@ -1,0 +1,4 @@
+Git rebase.
+what is kernel and shell.
+install dig.
+
