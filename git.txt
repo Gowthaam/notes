@@ -15,7 +15,7 @@ LEARNING GITHUB
 	Git checkout <5-digit hashcode> -- filename : restores the deleted file from the commit and add it to the workspace and staging area.
  
 	BRANCHING AND MERGING :
-	Git log --all -decorate --oneline --graph : it gives the commit graph.
+	Git log --all --decorate --oneline --graph : it gives the commit graph.
 	alias codename = "command" : it gives shortcut of commands.
 	Git branch <branchname> : to create new branches.
 	Git branch : to get all the existing branches.
@@ -31,6 +31,8 @@ LEARNING GITHUB
 	~3-WAY MERGE:
 		To merge branches that do not have a direct path.	
 		Git merge <branch-name>(if there are no merge-cnflicts.)
+	-REBASE
+		Git rebase <branch-name> : it's used to merge the branches like there were no 2 branches before without any history.  	
 	~MERGE CONFLICTS.
 		If 2 branches change the same lines of code in the 2 files.
 		Git  merge --abort : to quit merging the 2 branches in case of conflicts.
@@ -51,7 +53,11 @@ LEARNING GITHUB
 		Git stash pop : its used to apply and delete the stash.
 		Git stash clear : to delete all the entries.
 		Git stash drop <stash label>: to delete a particular entry.
-		
+	
+	GIT AMEND :
+		Git commit --amend : to make changes to the most recent commit message.
+		Git commit --amend --no-edit : to add the files in the staging area to the most recent commit.
+			
 
 	Every commit has SHA1 generated HASH code used to identify the commits.
 	The staging area is also known as the index. 
