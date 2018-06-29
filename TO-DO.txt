@@ -16,4 +16,3 @@ what is Git-flow.
 what is systemctl and what are systemd services in linux.
 Git fetch,fork.
 
-
