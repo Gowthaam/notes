@@ -1,0 +1,23 @@
+Refer GeeksForGeeks design patterns.
+
+
+Creational patterns :
+
+	Factory Pattern : It can be used as an interface to return the object to the client instead of hardcoding.
+	Builder Pattern : can be used to set parameters in any order and return the object.
+	Singleton pattern : only 1 object will be created , use static.
+	Prototype Pattern : used to create clone objects , use super.clone() method.
+ 	
+Structural Pattern :
+
+	Adapter pattern : to create an object that a client expects though not available using adapter.
+	  
+
+
+
+Extra's
+	Volatile keyword in java , http://tutorials.jenkov.com/java-concurrency/volatile.html
+	TestNg for testing : https://www.mkyong.com/regular-expressions/how-to-validate-password-with-regular-expression/
+
+Dependency injection and IOc:
+https://www.codeproject.com/Articles/465173/Dependency-Inversion-Principle-IoC-Container-Depen

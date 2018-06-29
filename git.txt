@@ -1,0 +1,74 @@
+LEARNING GITHUB
+
+	Git init : to initialise a folder for github.it creates .git file.
+	Git status : it gives the status of the files in the repo.
+	Git add -A : it adds all the files to be committed.
+	Git commit -m "" : it commits all the changes made with a message.
+	touch .gitignore : to create a file consisting of exceptions that should not be uploaded to git repo.
+	Git remote add origin <repo-url> : to add a remote server.
+	Git rm filename : to delete the file from workspace and staged area.	
+	
+ 	Git checkout -- filename : restores file in workspace with last commit.
+	Git reset HEAD filename : to restore file in staged files with last commit.	
+	Git diff -- staged : to get differences between staged file and committed file.
+	Git log -- filename : gives all the logs that affect the file.
+	Git checkout <5-digit hashcode> -- filename : restores the deleted file from the commit and add it to the workspace and staging area.
+ 
+	BRANCHING AND MERGING :
+	Git log --all -decorate --oneline --graph : it gives the commit graph.
+	alias codename = "command" : it gives shortcut of commands.
+	Git branch <branchname> : to create new branches.
+	Git branch : to get all the existing branches.
+	Git checkout <branchname>: to make HEAD point to it/use that branch to edit files.
+	Git diff <branch1>..<branch2> : it gives differences between the 2 branches.
+	Git branch --merged : gives the names of branches that are merged.
+	Git branch -d <branchname> : to delete a branch that has been merged,
+	Git branch -D <branchname> : to delete a branch that has not been merged.	
+
+	~GIT FAST FORWARD MERGE:
+		If theres a direct path between 2 branches , we can use this.It moves the master pointer directly to the latest commit.
+		Git merge <branch-name> : fast forward merge.
+	~3-WAY MERGE:
+		To merge branches that do not have a direct path.	
+		Git merge <branch-name>(if there are no merge-cnflicts.)
+	~MERGE CONFLICTS.
+		If 2 branches change the same lines of code in the 2 files.
+		Git  merge --abort : to quit merging the 2 branches in case of conflicts.
+		Resolve the conflicts by opening the file in a text editor, and make the changes indicated.
+		Then add the files using Git add.
+		The commit to make the merge.
+
+
+	DETACHED HEAD :
+		Git checkout <6digit hashcode> : to move head to that commit.
+		Git branch master : to get back from the detached head problem to the master branch.
+		Git branch <branch-name> : to create a branch at the detached head commit position.
+		
+	STASHING :
+		To save the state of the project without staging or commiting it.Its used to change the branch with a clean state by saving changes to the stash.
+		Git stash : its used to save the current state of the project.
+		Git stash list : it returns list of all the saved stashes.
+		Git stash pop : its used to apply and delete the stash.
+		Git stash clear : to delete all the entries.
+		Git stash drop <stash label>: to delete a particular entry.
+		
+
+	Every commit has SHA1 generated HASH code used to identify the commits.
+	The staging area is also known as the index. 
+
+	Git clone <repo-url> : to clone the url to local system.
+	Git push origin master : to push master to repo called origin.
+
+
+
+
+
+	Remote and origin : https://www.quora.com/What-does-git-remote-and-origin-mean	
+
+	DO CHECK OUT:
+
+	--local vs --global.
+	
+
+	BEST TUTORIAL :
+	https://www.youtube.com/watch?v=uR6G2v_WsRA

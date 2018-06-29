@@ -1,0 +1,33 @@
+UBUNTU HANDBOOK
+
+	Apt-get : Advanced packaging tool.
+	Sudo : admin access
+	Update : updates the list of available packages from all your configured remote repositories. 
+	Upgrade :  actually goes to those remote repositories and downloads/installs any packages that are more recent than the ones on your computer. 
+	install : install the package from the remote repo.
+	PPA : personal packaging archive for uploading packages that are givrn with ubuntu.
+	nano/vim/gedit : text - editors.
+	Dist-upgrade : upgrades more important ones at the xpense of less important.
+
+
+
+
+
+VI COMMANDS 
+	:w – Saves
+	:wq or :x – Save & Quit
+	:q – Quit
+	:q! – Force quit, no save
+	(https://www.pluralsight.com/blog/it-ops/linux-text-editors-vi-nano) 
+
+DELETE COMMANDS (rm -option filename):
+	-i : interactive deletion,asks for permission before deleting.
+	-f : forced deletion, deletes without any extra permission.
+	-r : recursive deletion,to delete directories.It deletes recursively using the tree structure of the folders.
+	-rf : delete directories without extra persmissions.
+
+
+
+SHARED FOLDER 
+	if it fails to execute then 
+ 	use sudo reboot.
