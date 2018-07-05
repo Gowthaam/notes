@@ -13,6 +13,8 @@ LEARNING GITHUB
 	Git diff -- staged : to get differences between staged file and committed file.
 	Git log -- filename : gives all the logs that affect the file.
 	Git checkout <5-digit hashcode> -- filename : restores the deleted file from the commit and add it to the workspace and staging area.
+	Git fetch <remote-name> : it only fetches the files to the local repo but does not merge it like pull.	
+	Git pull origin master --rebase : it rebases  the 2 branches instead of merging them.
  
 	BRANCHING AND MERGING :
 	Git log --all --decorate --oneline --graph : it gives the commit graph.

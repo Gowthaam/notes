@@ -8,11 +8,11 @@ SSH key authentication failure.
 
 04/07/18
 
-Git rebase. : done
+Git rebase,fork,amend,fetch : done
 what is kernel and shell.
 install dig.
 File snapshot vs File structure vs Deltas.
 what is Git-flow.
 what is systemctl and what are systemd services in linux.
-Git fetch,fork,squash,amend.
+Git squash,show.
 
