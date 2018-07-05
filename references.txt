@@ -1,0 +1,10 @@
+
+https://github.com/reljicd/spring-boot-shopping-cart/blob/master/src/main/java/com/reljicd/service/impl/ShoppingCartServiceImpl.java
+
+
+Thymeleaf for ui instead of jsp.
+
+
+http://www.baeldung.com/spring-security-multiple-auth-providers
+
+http://www.baeldung.com/spring-security-login
