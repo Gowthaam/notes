@@ -11,6 +11,7 @@ http://www.baeldung.com/spring-security-login
 
 https://docs.spring.io/spring-data/data-jpa/docs/1.1.x/reference/html/#jpa.named-parameters
 
+Sonar Qube Mysql integration : Self learning sonarqube youtube video
 
 
 mvn sonar:sonar \
