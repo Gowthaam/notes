@@ -31,3 +31,13 @@ DELETE COMMANDS (rm -option filename):
 SHARED FOLDER 
 	if it fails to execute then 
  	use sudo reboot.
+
+
+CHMOD COMMAND 
+	It stands for change mode.
+	command : chmod abc file/folder_name
+		Each number is a 3 bit binary number used for setting up rwx (read write and execute) permissions.		
+		a is used to set the permissions for the owner of the file.
+		b is used to set the access for owner group of that file.
+		c is used to set the access permissions for the rest or the public.
+
