@@ -24,3 +24,7 @@ spring.profiles.active=test
 		security.ignored= /**
 
 -Dspring.profiles.active=test
+
+
+
+Kerberos : http://web.mit.edu/kerberos/www/dialogue.html
