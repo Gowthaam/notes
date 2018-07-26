@@ -6,6 +6,7 @@ LEARNING GITHUB
 	Git commit -m "" : it commits all the changes made with a message.
 	touch .gitignore : to create a file consisting of exceptions that should not be uploaded to git repo.
 	Git remote add origin <repo-url> : to add a remote server.
+	SSH remote url : git@github.com:username/repo.git
 	Git rm filename : to delete the file from workspace and staged area.	
 	
  	Git checkout -- filename : restores file in workspace with last commit.

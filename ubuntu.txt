@@ -41,5 +41,17 @@ CHMOD COMMAND
 		b is used to set the access for owner group of that file.
 		c is used to set the access permissions for the rest or the public.
 
+SHELL WITH PYTHON :
+		OS module : 	(outdated no longer used)
+				os.system() : used to execute shell calls but output is printed on terminal.
+				os.popen() : it's same as system call but returns a new file object and redirects output to it.
+				Eg: a=os.popen("git status -s")
+				    print a.read()
 
-
+		SUBPROCESS module : (latest , forks the process and can be used to alter the input and output pipes)
+				subprocess.call() : used to execute shell by forking parent process and return output to terminal.
+				subprocess.check_output() : used to return the output to a variable .
+				Eg : abc = subprocess.check_output('ls -l',shell=True)
+				     print abc	
+ 		For OS and SUBPROCESS refer : http://www.bogotobogo.com/python/python_subprocess_module.php			
+	

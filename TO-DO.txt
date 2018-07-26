@@ -1,22 +1,25 @@
+26/7/18
+what is forking and why do we need it in unix
+
 19/7/18
-chmod command.
+chmod command : done
 
 
 07/11/18
-what areGrep,chmod
+what are Grep,chmod : done
 
 
 05/07/18
 
 What is Sonar-qube?
-SSH key authentication failure.
+SSH key authentication failure : done
 
 
 
 04/07/18
 
 Git rebase,fork,amend,fetch : done
-what is kernel and shell.
+what is kernel and shell : done
 install dig.
 File snapshot vs File structure vs Deltas.
 what is Git-flow.
